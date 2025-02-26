@@ -2,6 +2,9 @@
 
 set -e  # Dừng script nếu có lỗi xảy ra
 
+# Tải Tailscale
+curl -fsSL https://tailscale.com/install.sh | sh
+
 # Tải file zip từ GitHub
 wget https://github.com/Lozy/danted/archive/refs/heads/master.zip
 
